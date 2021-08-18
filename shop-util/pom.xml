@@ -7,10 +7,21 @@
         <groupId>com.wengll</groupId>
         <version>1.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.wengll.shop.util</groupId>
     <artifactId>shop-util</artifactId>
+    <packaging>pom</packaging>
+    <description>存放所有公共工程</description>
+
+
+    <modules>
+        <!-- shop公共工具包 -->
+        <module>common</module>
+
+        <!-- service工程依赖包 -->
+        <module>service-dependency</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

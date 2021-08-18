@@ -27,6 +27,8 @@
 
         <!-- 所有工具的工程 -->
         <module>shop-util</module>
+        <module>shop-util/common</module>
+        <module>shop-util/service-dependency</module>
 
         <!-- 所有存在页面操作的工程 -->
         <module>shop-web</module>

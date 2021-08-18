@@ -7,10 +7,11 @@
         <groupId>com.wengll</groupId>
         <version>1.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.wengll.shop.web</groupId>
     <artifactId>shop-web</artifactId>
+    <description>存放所有和页面渲染有关的工程，不建议放在service中，所有service只提供基于RESTful的服务</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

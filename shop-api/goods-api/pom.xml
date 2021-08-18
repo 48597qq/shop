@@ -8,8 +8,6 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.wengll.shop.api.goods</groupId>
     <artifactId>goods-api</artifactId>
 
     <properties>

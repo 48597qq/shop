@@ -6,18 +6,12 @@
         <artifactId>shop</artifactId>
         <groupId>com.wengll</groupId>
         <version>1.0</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.wengll.shop.api</groupId>
-    <artifactId>shop-api</artifactId>
-    <packaging>pom</packaging>
-    <description>存放所有JavaBean和Feign接口</description>
 
-    <modules>
-        <!-- 商品相关工程 -->
-        <module>goods-api</module>
-    </modules>
+    <groupId>com.wengll.shop.util</groupId>
+    <artifactId>service-dependency</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

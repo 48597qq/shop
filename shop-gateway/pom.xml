@@ -7,10 +7,11 @@
         <groupId>com.wengll</groupId>
         <version>1.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.wengll.shop.gateway</groupId>
     <artifactId>shop-gateway</artifactId>
+    <description>存放微服网关集群</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
